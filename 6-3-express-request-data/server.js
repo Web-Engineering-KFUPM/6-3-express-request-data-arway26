@@ -109,7 +109,7 @@ const app = express();
 
 
 // create server
-
+app.listen(3000, () => console.log("API running at http://localhost:3000"));
 
 // Query params: /echo?name=Ali&age=22
 
